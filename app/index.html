@@ -3,25 +3,48 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Food</title>
+	<title>MoniHeal</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-	<div class="d-flex container">
+	<div class="d-flex main">
 		<header>
-			<h2>eatiz</h2>
-			<div class="links">
-				<a href="#">Головна</a>
-				<a href="#">Замовити</a>
-				<a href="#">Послуги</a>
-				<a href="#">Про Нас</a>
+			<div class="logo">
+				<img src="img/logo_heal.png" alt="medicine">
 			</div>
-			<div class="log_in">
-				<img src="" alt="">
-				<button class="log_in">Log in</button>
+			<div class="main_search">
+				<fieldset>
+					<input type="text" class="main_search_field" placeholder="Пошук фахівця">
+					<button class="main_button_search" type="submit">Знайти	
+					</button>
+				</fieldset>
+			</div>
+			<div class="lang">
+				<select name="Укр.">
+					<option value="Укр.">Укр.</option>
+					<option value="Рос.">Рос.</option>
+					<option value="Англ.">Англ.</option>
+				</select>
+			</div>
+			<div class="main_logging">
+				<button>
+				<img src="img/log.png" alt="">
+				Увійти</button>
+			</div>
+			<div class="main_menu">
+				<div class="main_menu_el">
+					Меню
+					<img src="img/menu.png" alt="">
+				</div>
 			</div>
 		</header>
-
+		
 	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
