@@ -131,7 +131,7 @@ header hr{
 	text-decoration-line: underline;
 	color: #16395B;
 }
-.links #clinic{
+.links .clinic{
 	position: absolute;
 	width: 54px;
 	height: 20px;
@@ -145,7 +145,7 @@ header hr{
 	/* identical to box height */
 	color: #16395B;
 }
-.links #medical{
+.links .medical{
 	position: absolute;
 	width: 157px;
 	height: 20px;
@@ -159,13 +159,15 @@ header hr{
 	/* identical to box height */
 	color: #A7C0E2;
 }
-.links img{
+.links #arrow1{
 	position: absolute;
-	left: 16.67%;
-	right: 16.67%;
-	top: 33.33%;
-	bottom: 33.33%;
-	background: #000000;
+	left: 197px;
+	top: 118px;
+}
+.links #arrow2{
+	position: absolute;
+	left: 300px;
+	top: 118px;
 }
 .main_header .main_header_contacts{
 	position: absolute;
@@ -191,4 +193,90 @@ header hr{
 	left: 845px;
 	top: 464px;
 	background: rgba(58, 89, 120, 0.8);
+}
+.main .main_header_img{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	left: 215px;
+	top: 230px;
+	z-index: 2;
+}
+.main_header .main_header_contacts h1{
+	position: absolute;
+	width: 256px;
+	height: 44px;
+	left: 90px;
+	top: 175px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+}
+.main_header_contacts .main_header_rates{
+	position: absolute;
+	width: 73px;
+	height: 30px;
+	left: 375px;
+	top: 185px;
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.main_header_contacts .main_header_rates img{
+	position: absolute;
+	left: 8.33%;
+	right: 8.33%;
+	top: 8.33%;
+	bottom: 8.5%;
+}
+.main_header_contacts .main_header_rates span{
+	position: absolute;
+	width: 32px;
+	height: 25px;
+	left: 35px;
+	top: 1px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 750;
+	font-size: 20px;
+	line-height: 25px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.main_header_contacts .main_header_rates p{
+	position: absolute;
+	width: 562px;
+	height: 20px;
+	left: -287px;
+	top: 36px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 450;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height */
+	color: rgba(255, 255, 255, 7.8);
+}
+.main_header_address{
+	position: absolute;
+	width: 502px;
+	height: 50px;
+	left: 253px;
+	top: 444px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+.main_header_address img{
+	position: absolute;
+	left: 16.67%;
+	right: 16.67%;
+	top: 8.33%;
+	bottom: 8.33%;
 }
