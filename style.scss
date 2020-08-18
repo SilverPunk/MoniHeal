@@ -51,6 +51,7 @@ body{
 	top: 7px;
 	background: #32D29F;
 	border-radius: 2px;
+	border-color: inherit;
 }
 .lang select{
 	position: absolute;
@@ -266,6 +267,12 @@ header hr{
 	height: 50px;
 	left: 253px;
 	top: 444px;
+}
+.main_header_address p{
+	position: absolute;
+	bottom: 137px;
+	left: -133px;
+	width: fit-content;
 	font-family: Avenir Next Cyr;
 	font-style: normal;
 	font-weight: 450;
@@ -275,8 +282,75 @@ header hr{
 }
 .main_header_address img{
 	position: absolute;
-	left: 16.67%;
-	right: 16.67%;
-	top: 8.33%;
-	bottom: 8.33%;
+	left: -32%;
+	top: -152px;
+}
+.main_header_phone img{
+	position: absolute;
+	left: 12.5%;
+  top: 372px;
+}
+.main_header_phone .list_of_numbers{
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	left: 117px;
+  top: 370px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 25px;
+	/* identical to box height */
+	color: white;
+  background-color: #4EBB97;
+}
+.main_header_icon img{
+	position: absolute;
+	left: 90px;
+  top: 430px;
+	background: inherit;
+}
+.main_header_icon a{
+	position: absolute;
+	width: 562px;
+	height: 25px;
+	left: 120px;
+  top: 427px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 25px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.main_header_call form{
+	position: absolute;
+	width: 199px;
+	height: 50px;
+	left: 215px;
+	top: 632px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.main_header_call form button{
+	position: absolute;
+	text-align: center;
+	width: 160px;
+	height: 40px;
+	left: -127px;
+	top: -133px;
+	font-family: Avenir Next Cyr;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	color: white;
+	background-color: inherit;
+	border-color: white;
+	padding: 12px;
 }
